@@ -1,10 +1,9 @@
 from datetime import date, timedelta
-from .utils import teks, cari, garis
+from .utils import teks, cari, garis, angka
 from .penyimpanan import simpan_semua
 
 LAMA_PINJAM = 7
 TARIF_DENDA = 1000
-LAMA_PINJAM = 7
 STATUS = ['Dipinjam', 'Dikembalikan']
 
 def id_baru(data):
@@ -44,7 +43,7 @@ def pinjam(buku, anggota, pinjaman):
         if sisa <= 0:
             print('Stok tidak cukup.')
             continue
-        jumlah =angka  ('Jumlah pinjam: ', 1)
+        jumlah = angka ('Jumlah pinjam: ', 1)
         if jumlah > sisa:
             print('Jumlah melebihi stok tersedia:', sisa)
             continue
