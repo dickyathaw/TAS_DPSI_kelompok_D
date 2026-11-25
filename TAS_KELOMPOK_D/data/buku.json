@@ -1,0 +1,16 @@
+[
+    {
+        "id": "2",
+        "judul": "g",
+        "penulis": "d",
+        "kategori": "a",
+        "stok": 4
+    },
+    {
+        "id": "4",
+        "judul": "dada",
+        "penulis": "lolot",
+        "kategori": "novel",
+        "stok": 2
+    }
+]
