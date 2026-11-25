@@ -16,7 +16,7 @@ def tambah(data):
         return
     data.append({'id': kode, 'nama': teks('Nama: '), 'telepon': teks('Telepon: ')})
     simpan('anggota', data)
-    print('Anggota ditambahkan.')
+    print('Anggota telah ditambahkan.')
 
 def ubah(data):
     a = cari(data, 'id', teks('ID anggota: '))
@@ -31,7 +31,7 @@ def ubah(data):
         print('Pilihan tidak valid.')
         return
     simpan('anggota', data)
-    print('Anggota diperbarui.')
+    print('Anggota telah diperbarui.')
 
 def hapus(data, pinjaman):
     a = cari(data, 'id', teks('ID anggota: '))
@@ -43,7 +43,7 @@ def hapus(data, pinjaman):
         return
     data.remove(a)
     simpan('anggota', data)
-    print('Anggota dihapus.')
+    print('Anggota telah dihapus.')
 
 def menu(data, pinjaman):
     while True:
