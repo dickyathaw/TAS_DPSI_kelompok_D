@@ -44,7 +44,7 @@ def pinjam(buku, anggota, pinjaman):
         if sisa <= 0:
             print('Stok tidak cukup.')
             continue
-        jumlah = angka ('Jumlah pinjam: ', 1)
+        jumlah =angka  ('Jumlah pinjam: ', 1)
         if jumlah > sisa:
             print('Jumlah melebihi stok tersedia:', sisa)
             continue
