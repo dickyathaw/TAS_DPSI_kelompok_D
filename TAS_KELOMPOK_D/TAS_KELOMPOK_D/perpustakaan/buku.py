@@ -71,4 +71,4 @@ def menu(data, pinjaman):
         elif p == '4': hapus(data, pinjaman)
         elif p == '5': kategori(data)
         elif p == '0': break
-        else: print('Pilihan Tidak Valid.')
+        else: print('Pilihan tidak valid.')
