@@ -34,3 +34,4 @@ def menu(buku, anggota, pinjaman):
             print('Total denda keterlambatan: Rp', sum(x['denda'] for x in pinjaman))
         elif p == '0': break
         else: print('Pilihan tidak valid.')
+
