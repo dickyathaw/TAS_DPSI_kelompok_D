@@ -1,17 +1,17 @@
 from datetime import date, timedelta
-from .utils import teks, angka, cari, tanggal, garis
+from .utils import teks, cari, garis, angka
 from .penyimpanan import simpan_semua
 
-TARIF_DENDA = 1000  # Rupiah per buku per hari terlambat
-LAMA_PINJAM = 7     # Hari, dapat diubah
-STATUS = ('Dipinjam', 'Dikembalikan')  # tuple
+LAMA_PINJAM = 7
+TARIF_DENDA = 1000
+STATUS = ['Dipinjam', 'Dikembalikan']
 
 def id_baru(data):
     nomor = 1
     kode_terpakai = {p['id'] for p in data}
-    while 'P' + str(nomor).zfill(4) in kode_terpakai:
+    while 'p' + str(nomor).zfill(4) in kode_terpakai:
         nomor += 1
-    return 'P' + str(nomor).zfill(4)
+    return 'p' + str(nomor).zfill(4)
 
 def pinjam(buku, anggota, pinjaman):
     if not buku or not anggota:
@@ -43,7 +43,7 @@ def pinjam(buku, anggota, pinjaman):
         if sisa <= 0:
             print('Stok tidak cukup.')
             continue
-        jumlah = angka('Jumlah pinjam: ', 1)
+        jumlah = angka ('Jumlah pinjam: ', 1)
         if jumlah > sisa:
             print('Jumlah melebihi stok tersedia:', sisa)
             continue

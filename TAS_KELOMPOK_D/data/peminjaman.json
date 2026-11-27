@@ -1,1 +1,20 @@
-[]
+[
+    {
+        "id": "p0001",
+        "id_anggota": "098765",
+        "nama_anggota": "linda",
+        "items": [
+            {
+                "id_buku": "B001",
+                "judul": "matematika",
+                "jumlah": 1
+            }
+        ],
+        "tanggal_pinjam": "2026-11-26",
+        "batas_kembali": "2026-12-03",
+        "tanggal_kembali": "2026-11-26",
+        "terlambat_hari": 0,
+        "denda": 0,
+        "status": "Dikembalikan"
+    }
+]

@@ -1,16 +1,37 @@
 [
     {
-        "id": "2",
-        "judul": "g",
-        "penulis": "d",
-        "kategori": "a",
+        "id": "B001",
+        "judul": "IPA",
+        "penulis": "Linda S.Si",
+        "kategori": "Pelajaran",
+        "stok": 5
+    },
+    {
+        "id": "B002",
+        "judul": "IPS",
+        "penulis": "Retha S.E",
+        "kategori": "Pelajaran",
+        "stok": 6
+    },
+    {
+        "id": "B003",
+        "judul": "Matematika",
+        "penulis": "Beryl S.Pd M.Pd",
+        "kategori": "Pelajaran",
+        "stok": 3
+    },
+    {
+        "id": "B004",
+        "judul": "Bahasa Indonesia",
+        "penulis": "Chael S.Pd",
+        "kategori": "Pelajaran",
         "stok": 4
     },
     {
-        "id": "4",
-        "judul": "dada",
-        "penulis": "lolot",
-        "kategori": "novel",
+        "id": "B005",
+        "judul": "PKN",
+        "penulis": "Dicky S.Pd",
+        "kategori": "Pelajaran",
         "stok": 2
     }
 ]
