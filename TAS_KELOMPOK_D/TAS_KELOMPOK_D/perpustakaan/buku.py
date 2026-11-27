@@ -5,8 +5,8 @@ def tampil(data):
     garis()
     if not data:
         print("Buku belum tersedia.")
-    for b in data:
-        print(f"{b['id']} | {b['judul']} | {b['penulis']} | {b['kategori']} | Stok: {b['stok']}")
+    for buku in data:
+        print(f"{buku['id']} | {buku['judul']} | {buku['penulis']} | {buku['kategori']} | Stok: {buku['stok']}")
     garis()
 
 def tambah(data):
